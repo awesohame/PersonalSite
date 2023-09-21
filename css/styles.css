@@ -65,7 +65,7 @@
 }
 
 .navElementR:hover {
-    font-size: 22px;
+    /* font-size: 22px; */
     color: #FEDD00;
     transition: .7s;
 }
@@ -78,7 +78,7 @@
 }
 
 .navElement:hover {
-    font-size: 55px;
+    /* font-size: 55px; */
     color: #FEDD00;
     transition: .7s;
 }
@@ -274,7 +274,7 @@
 
     #initials {
         font-size: 30px;
-        color: rgb(251, 255, 0);
+        color: #FEDD00;
     }
 
     .navtext {
@@ -308,7 +308,7 @@
     }
 
     .navElementR:hover {
-        font-size: 14px;
+        /* font-size: 14px; */
         color: #FEDD00;
         transition: 0s;
     }
@@ -321,7 +321,7 @@
     }
 
     .navElement:hover {
-        font-size: 30px;
+        /* font-size: 30px; */
         color: #FEDD00;
         transition: 0s;
     }
