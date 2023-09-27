@@ -68,6 +68,7 @@
     /* font-size: 22px; */
     color: #FEDD00;
     transition: .7s;
+    transform: scale(1.15);
 }
 
 .navElement {
@@ -81,6 +82,7 @@
     /* font-size: 55px; */
     color: #FEDD00;
     transition: .7s;
+    transform: scale(1.15);
 }
 
 .navbar ul {
@@ -309,8 +311,9 @@
 
     .navElementR:hover {
         /* font-size: 14px; */
-        color: #FEDD00;
+        color: white;
         transition: 0s;
+        transform: scale(1);
     }
 
     .navElement {
@@ -322,8 +325,9 @@
 
     .navElement:hover {
         /* font-size: 30px; */
-        color: #FEDD00;
+        color: white;
         transition: 0s;
+        transform: scale(1);
     }
 
 
