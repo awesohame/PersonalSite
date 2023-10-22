@@ -6,14 +6,19 @@ function Projectlist() {
         <div className="projectlist">
             {projects.map((project) => (
                 <div className="projectcontainer" key={project.id}>
-                    <h2 className="titles">{project.title}</h2>
-                    <p className="description">{project.desc}</p>
-                    <p className="softwares">Software Used:</p>
-                    {project.used.map((software) => (
-                        <ul className="softwares">
-                            <li className="software">{software}</li>
-                        </ul>
-                    ))}
+                    <div className="projectimagecontainer">
+                        <img src={project.image} alt={project.name} className="projectimage" />
+                    </div>
+                    <div className="textdetails">
+                        <h2 className="titles">{project.title}</h2>
+                        <p className="description">{project.desc}</p>
+                        <p className="softwares">Software Used:</p>
+                        {project.used.map((software) => (
+                            <ul className="softwares">
+                                <li className="software">{software}</li>
+                            </ul>
+                        ))}
+                    </div>
                 </div>
             ))}
         </div>

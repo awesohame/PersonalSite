@@ -393,20 +393,36 @@
 }
 
 .projectcontainer {
-  margin: 40px;
+  margin: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .titles {
   text-align: center;
+  margin: 20px;
 }
 
 .description {
   text-align: center;
+  margin: 5px;
+  margin-bottom: 15px;
 }
 
 .softwares {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  margin-left: 50px;
+}
+
+.projectimage {
+  width: 800px;
+  border-radius: 20px;
+}
+
+.textdetails {
+  width: 400px;
+  margin-left: 50px;
 }
