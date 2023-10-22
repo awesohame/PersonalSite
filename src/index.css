@@ -1,0 +1,428 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(16, 16, 16);
+}
+
+/* HEADER */
+
+/* div {
+  background-color: rgb(16, 16, 16);
+} */
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  background-color: rgb(16, 16, 16);
+}
+
+#initials {
+  font-size: 40px;
+  color: #FEDD00;
+}
+
+#navlist {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+}
+
+.navicon {
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.navtext {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  display: flex;
+}
+
+/* .navimg {
+  width: 50px;
+} */
+
+.navElementR {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  display: flex;
+}
+
+.navElementR:hover {
+  /* font-size: 22px; */
+  color: #FEDD00;
+  transition: .7s;
+  transform: scale(1.15);
+}
+
+.navElement {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 50px;
+  padding: 0px;
+  color: white;
+}
+
+.navElement:hover {
+  /* font-size: 55px; */
+  color: #FEDD00;
+  transition: .7s;
+  transform: scale(1.15);
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+/* BODY */
+
+.bodymain {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+.mainbody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding-right: 20px;
+}
+
+.bodytext {
+  color: white;
+  font-size: 85px;
+  font-weight: 600;
+}
+
+@keyframes rainbow {
+  0% {
+    color: #f04dff;
+  }
+
+  25% {
+    color: #ff4d4d;
+  }
+
+  50% {
+    color: #ffc54d;
+  }
+
+  75% {
+    color: #6aed76;
+  }
+
+  100% {
+    color: #09f;
+  }
+}
+
+.rainbow {
+  animation: rainbow 10s ease 0s infinite alternate none running;
+}
+
+.pfp {
+  width: 295px;
+}
+
+.bodyname {
+  /* display: flex;
+  justify-content: center; */
+  width: 70%;
+  margin: auto;
+}
+
+.bodynametext {
+  /* width: 70%;
+  margin: auto; */
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.projecttitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.project {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.projectimg {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+  margin-top: 6px;
+}
+
+/* .arrowimg {
+  width: 20px;
+} */
+
+@media (min-width:1111px) and (max-width:1350px) {
+  .bodytext {
+    color: white;
+    font-size: 65px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width:975px) and (max-width:1111px) {
+  .bodytext {
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+  }
+
+  .pfp {
+    width: 260px;
+  }
+}
+
+@media (min-width:900px) and (max-width:975px) {
+  .bodytext {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .pfp {
+    width: 240px;
+  }
+
+  .bodynametext {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width:750px) and (max-width:900px) {
+  .bodytext {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .pfp {
+    width: 230px;
+  }
+
+  .bodynametext {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width:667px) and (max-width:750px) {
+  /* nav */
+
+  .navimg {
+    width: 40px;
+  }
+
+  /* body */
+  .bodytext {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .pfp {
+    width: 220px;
+  }
+
+  .bodynametext {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width:0px) and (max-width:667px) {
+
+  /* navbar */
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    background-color: rgb(16, 16, 16);
+    margin-top: 15px;
+  }
+
+  #initials {
+    font-size: 30px;
+    color: #FEDD00;
+  }
+
+  .navtext {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+  }
+
+  .navicon {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  /* .navimg {
+      width: 30px;
+  } */
+
+  .navElementR {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+    display: flex;
+  }
+
+  .navElementR:hover {
+    /* font-size: 14px; */
+    color: white;
+    transition: 0s;
+    transform: scale(1);
+  }
+
+  .navElement {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 30px;
+    padding: 0px;
+    color: white;
+  }
+
+  .navElement:hover {
+    /* font-size: 30px; */
+    color: white;
+    transition: 0s;
+    transform: scale(1);
+  }
+
+
+
+  /* body */
+
+  .bodymain {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+  }
+
+  .mainbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-right: 0px;
+    flex-wrap: wrap-reverse;
+  }
+
+  .bodytext {
+    margin-top: 25px;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .pfp {
+    width: 230px;
+  }
+
+  .bodyname {
+    width: 90%;
+    margin: auto;
+  }
+
+  .bodynametext {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .project {
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  .projectimg {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+  }
+}
+
+.projectlist {
+  color: white;
+}
+
+.projectcontainer {
+  margin: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.titles {
+  text-align: center;
+  margin: 20px;
+}
+
+.description {
+  text-align: center;
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+.softwares {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.projectimage {
+  width: 800px;
+  border-radius: 20px;
+}
+
+.textdetails {
+  width: 400px;
+  margin-left: 50px;
+}
