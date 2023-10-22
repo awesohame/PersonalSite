@@ -1,4 +1,5 @@
 import './index.css';
+const pfp = require("./images/borderpfp1.png");
 
 function Home() {
     return (
@@ -6,7 +7,7 @@ function Home() {
             <div className="bodymain">
                 <div className="mainbody">
                     <span className="bodytext">I create <span className="rainbow">playful</span> experiences</span>
-                    <img src="./images/borderpfp1.png" alt="pfp" class="pfp"></img>
+                    <img src={pfp} alt="pfp" class="pfp" />
                 </div>
             </div>
             <div className="bodyname">
