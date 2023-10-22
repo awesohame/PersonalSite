@@ -387,3 +387,26 @@
     margin-top: 0px;
   }
 }
+
+.projectlist {
+  color: white;
+}
+
+.projectcontainer {
+  margin: 40px;
+}
+
+.titles {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+
+.softwares {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
