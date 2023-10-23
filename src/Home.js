@@ -13,10 +13,10 @@ function Home() {
             <div className="bodyname">
                 <p className="bodynametext">Soham Aversekar | Software Developer</p>
                 <div className="projecttitle">
-                    <p className="project">Projects</p>
+                    <a href="#projects" className="scroll"><p className="project">Projects</p></a>
                 </div>
                 <div className="projectimg">
-                    <i className="fa-solid fa-chevron-down"></i>
+                    <a className="scroll" href="#projects"><i className="fa-solid fa-chevron-down"></i></a>
                     {/* <img className="arrowimg" src="images/downarrow.png" alt="DownArrow"> </img> */}
                 </div>
             </div>

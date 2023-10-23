@@ -5,7 +5,7 @@ function Projectlist() {
     return (
         <div className="projectlist">
             {projects.map((project) => (
-                <div className="projectcontainer" key={project.id}>
+                <div className="projectcontainer" id="projects" key={project.id}>
                     <div className="projectimagecontainer">
                         <img src={project.image} alt={project.name} className="projectimage" />
                     </div>
