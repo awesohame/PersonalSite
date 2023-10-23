@@ -434,3 +434,34 @@
   width: 400px;
   margin-left: 50px;
 }
+
+
+/* FOOTER */
+
+.footer {
+  padding: 15rem;
+}
+
+.footercontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footertext {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.footericon {
+  color: white;
+  font-size: 70px;
+  padding: 20px;
+}
+
+.footericon:hover {
+  color: #FEDD00;
+  transition: .7s;
+  transform: scale(1.15);
+}
