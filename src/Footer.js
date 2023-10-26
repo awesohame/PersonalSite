@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footercontent">
-                <h2 className="footertext">Reach Me</h2>
+                <h2 className="footertext">Connect with me</h2>
             </div>
             <div className="footercontent">
                 <a href="https://instagram.com/awesohame" target="_blank" rel="noreferrer" className="footericon">
