@@ -7,7 +7,7 @@ function Home() {
             <div className="bodymain">
                 <div className="mainbody">
                     <span className="bodytext">I create <span className="rainbow">playful</span> experiences</span>
-                    <img src={pfp} alt="pfp" class="pfp" />
+                    <img src={pfp} alt="pfp" className="pfp" />
                 </div>
             </div>
             <div className="bodyname">

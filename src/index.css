@@ -229,6 +229,27 @@
   margin-left: 50px;
 }
 
+.projectbtncontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.projectbtn {
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  padding: 7px 10px;
+  text-decoration: none;
+}
+
+.projectbtn:hover {
+  background-color: #FEDD00;
+  transition: .7s;
+}
+
 
 /* FOOTER */
 
@@ -445,6 +466,11 @@
     margin-left: 0px
   }
 
+  .projectbtn:hover {
+    background-color: white;
+    transition: 0s;
+  }
+
   .footer {
     padding: 15rem 10rem;
   }
@@ -526,6 +552,11 @@
   .textdetails {
     width: 400px;
     margin-left: 0px
+  }
+
+  .projectbtn:hover {
+    background-color: white;
+    transition: 0s;
   }
 
   .footer {
@@ -711,6 +742,20 @@
   .textdetails {
     width: 400px;
     margin-left: 0px
+  }
+
+  /* .projectbtn {
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 7px 10px;
+    text-decoration: none;
+  } */
+
+  .projectbtn:hover {
+    background-color: white;
+    transition: 0s;
   }
 
   .footer {

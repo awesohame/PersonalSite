@@ -4,23 +4,23 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footercontent">
-                <h2 className="footertext">Connect with me</h2>
+                <h2 className="footertext">Connect with meName</h2>
             </div>
             <div className="footercontent">
                 <a href="https://instagram.com/awesohame" target="_blank" rel="noreferrer" className="footericon">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i className="fa-brands fa-instagram"></i>
                 </a>
                 <a href="https://github.com/awesohame" target="_blank" rel="noreferrer" className="footericon">
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                 </a>
                 <a href="https://linkedin.com/in/sohamaversekar" target="_blank" rel="noreferrer" className="footericon">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                 </a>
                 <a href="https://www.hackerrank.com/profile/awesohame" target="_blank" rel="noreferrer" className="footericon">
-                    <i class="fa-brands fa-hackerrank"></i>
+                    <i className="fa-brands fa-hackerrank"></i>
                 </a>
                 <a href="mailto:sohamaversekar777@gmail.com" target="_blank" rel="noreferrer" className="footericon">
-                    <i class="fa-regular fa-envelope"></i>
+                    <i className="fa-regular fa-envelope"></i>
                 </a>
             </div>
         </div>
