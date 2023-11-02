@@ -212,9 +212,19 @@
 
 .softwares {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-left: 50px;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+}
+
+.software {
+  list-style: none;
+  background-color: rgb(48, 48, 48);
+  border-radius: 8px;
+  margin: 8px;
+  padding: 5px;
 }
 
 .projectimage {
@@ -322,10 +332,10 @@
   }
 
   .softwares {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 50px; */
     font-size: 16px;
   }
 
@@ -380,10 +390,10 @@
   }
 
   .softwares {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 50px; */
     font-size: 16px;
   }
 
@@ -447,10 +457,10 @@
   }
 
   .softwares {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 50px; */
     font-size: 16px;
   }
 
@@ -535,10 +545,10 @@
   }
 
   .softwares {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 50px; */
     font-size: 16px;
   }
 
@@ -725,11 +735,11 @@
   }
 
   .softwares {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 50px;
-    font-size: 16px;
+    margin-left: 50px; */
+    font-size: 14px;
   }
 
   .projectimage {

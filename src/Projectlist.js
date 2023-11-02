@@ -12,12 +12,14 @@ function Projectlist() {
                     <div className="textdetails">
                         <h2 className="titles">{project.title}</h2>
                         <p className="description">{project.desc}</p>
-                        <p className="softwares">Software Used:</p>
-                        {project.used.map((software, index) => (
-                            <ul className="softwares" key={index}>
-                                <li className="software">{software}</li>
-                            </ul>
-                        ))}
+                        {/* <p className="softwares">Software Used:</p> */}
+                        <ul className="softwares" >
+                            {project.used.map((software, index) => (
+
+                                <li className="software" key={index}>{software}</li>
+
+                            ))}
+                        </ul>
                         <div className="projectbtncontainer">
                             <a href={project.code} target="_blank" rel="noreferrer" className="projectbtn">View Code</a>
                         </div>
